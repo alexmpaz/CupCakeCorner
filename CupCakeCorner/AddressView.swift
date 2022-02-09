@@ -8,15 +8,31 @@
 import SwiftUI
 
 struct AddressView: View {
-    @ObservedObject var order: Order
+    @ObservedObject var order: SharedOrder
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            Section {
+                TextField("Name", text: $order.items.name)
+                TextField("Street address", text: $order.items.streetAddress)
+                TextField("City", text: $order.items.city)
+                TextField("Zip", text: $order.items.zip)
+            }
+            
+            Section {
+                NavigationLink("Check out", destination: CheckoutView(order: order))
+            }
+            .disabled(order.items.hasValidAddress == false)
+        }
+        .navigationTitle("Delivery details")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct AddressView_Previews: PreviewProvider {
     static var previews: some View {
-        AddressView(order: Order())
+        NavigationView {
+            AddressView(order: SharedOrder())
+        }
     }
 }

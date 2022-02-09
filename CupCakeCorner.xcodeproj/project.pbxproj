@@ -11,8 +11,10 @@
 		EC037EEA27AD44360005796E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC037EE927AD44360005796E /* ContentView.swift */; };
 		EC037EEC27AD443E0005796E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC037EEB27AD443E0005796E /* Assets.xcassets */; };
 		EC037EEF27AD443E0005796E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC037EEE27AD443E0005796E /* Preview Assets.xcassets */; };
+		EC3B994B27B3DDBC007B189E /* String-EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B994A27B3DDBC007B189E /* String-EmptyChecking.swift */; };
 		EC5C21E027B195A20010BCCD /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C21DF27B195A20010BCCD /* Order.swift */; };
 		EC99E4F027B27536007780E2 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC99E4EF27B27536007780E2 /* AddressView.swift */; };
+		EC99E4F227B2871D007780E2 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC99E4F127B2871D007780E2 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +23,10 @@
 		EC037EE927AD44360005796E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC037EEB27AD443E0005796E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC037EEE27AD443E0005796E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC3B994A27B3DDBC007B189E /* String-EmptyChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-EmptyChecking.swift"; sourceTree = "<group>"; };
 		EC5C21DF27B195A20010BCCD /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		EC99E4EF27B27536007780E2 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		EC99E4F127B2871D007780E2 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			children = (
 				EC037EE727AD44360005796E /* CupCakeCornerApp.swift */,
 				EC037EE927AD44360005796E /* ContentView.swift */,
+				EC99E4F127B2871D007780E2 /* CheckoutView.swift */,
 				EC5C21DF27B195A20010BCCD /* Order.swift */,
 				EC99E4EF27B27536007780E2 /* AddressView.swift */,
+				EC3B994A27B3DDBC007B189E /* String-EmptyChecking.swift */,
 				EC037EEB27AD443E0005796E /* Assets.xcassets */,
 				EC037EED27AD443E0005796E /* Preview Content */,
 			);
@@ -145,8 +151,10 @@
 			files = (
 				EC5C21E027B195A20010BCCD /* Order.swift in Sources */,
 				EC99E4F027B27536007780E2 /* AddressView.swift in Sources */,
+				EC99E4F227B2871D007780E2 /* CheckoutView.swift in Sources */,
 				EC037EEA27AD44360005796E /* ContentView.swift in Sources */,
 				EC037EE827AD44360005796E /* CupCakeCornerApp.swift in Sources */,
+				EC3B994B27B3DDBC007B189E /* String-EmptyChecking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
